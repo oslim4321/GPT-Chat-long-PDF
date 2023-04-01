@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings } from "langchain/embeddings";
+import { OpenAIEmbeddings } from "langchain-embeddings";
 import { PineconeStore } from "langchain/vectorstores";
 
 const { makeChain } = require("@/utils/makechain");
